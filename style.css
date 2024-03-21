@@ -106,3 +106,34 @@
 .funcionamento > div > div > p {
   color: #737373;
 }
+
+.avaliacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 700px;
+}
+
+.avaliacoes > .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avaliacoes > .box > div {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 500px;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.avaliacoes > .box > div:nth-child(even) {
+  align-items: flex-start;
+}
+
+.avaliacoes > .box > div:nth-child(odd) {
+  align-items: flex-end;
+}
