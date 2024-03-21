@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.capa {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-image: url(public/Rectangle\ 48.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.h1-branco {
+  color: white;
+  font-size: 52px;
+}
+
+.p-branco {
+  color: white;
+  font-size: 24px;
+}
+
+.primary-button {
+  background-color: #00bf63;
+  color: white;
+  font-size: 28px;
+  border-radius: 30px;
+  width: 250px;
+  height: 70px;
+  border: 1px solid white;
+  margin: 0 10px;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: white;
+  font-size: 28px;
+  border-radius: 30px;
+  width: 250px;
+  height: 70px;
+  border: 1px solid white;
+  margin: 0 10px;
+}
+
+.apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.apresentacao > img {
+  width: 500px;
+}
+
+.apresentacao > div {
+  width: 600px;
+}
+
+.apresentacao > div > h2 {
+  color: #00bf63;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.apresentacao > div > p {
+  color: #737373;
+  font-size: 18px;
+}
+
+.funcionamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.funcionamento > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.funcionamento > div > div {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.funcionamento > div > div > h3 {
+  color: #00bf63;
+}
+
+.funcionamento > div > div > h2 {
+  font-size: 30px;
+}
+
+.funcionamento > div > div > p {
+  color: #737373;
+}
