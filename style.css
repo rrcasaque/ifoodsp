@@ -297,3 +297,105 @@ footer{
   background-color: #e2e2e2;
   color: #00bf63;
 }
+
+/* Mobile */
+@media screen and (max-width: 1080px) {
+  body {
+    .capa{
+      height: auto;
+      ;
+    }
+
+    .capa h1{
+      margin-top: 1rem;
+      font-size: 2rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .capa div{
+      margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .capa div button:nth-child(2){
+      margin-top: 1rem;
+      border-color: #f2f2f2;
+    }
+
+    .apresentacao img{
+      width: 80%;
+      margin-right: 3rem;
+    }
+
+    .apresentacao div{
+      width: 75%;
+      text-align: center;
+    }
+
+    .funcionamento > div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .funcionamento > div > div{
+      align-items: center;
+    }
+
+    .funcionamento > div:nth-child(2) > img{
+      width: 150%;
+      margin-left: 5rem;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+
+    .funcionamento > div:nth-child(3){
+      margin: 14rem 0 0 0;
+    }
+
+    .funcionamento > div:nth-child(3) img{
+      margin: 0 0 0 6rem;
+    }
+
+    .funcionamento > div:nth-child(4) img{
+      margin: 0 0 0 6rem;
+    }
+
+    .avaliacoes {
+      margin: 15rem 0 0 0;
+    }
+
+    .avaliacoes .box{
+      margin: 1.5rem 3rem;
+      flex-direction: column;
+    }
+    .avaliacoes .box div{
+      margin-top: 0.5rem;
+      width: 100%;
+      justify-content: center;
+    }
+
+
+  .CTA{
+    margin-top: 15rem;
+    height: auto;
+  }
+
+  .CTA{
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .form{
+    flex-direction: column;
+  }
+  .form .show-case{
+    margin-left: -2rem;
+  }
+
+    }
+  }
