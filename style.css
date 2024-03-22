@@ -129,6 +129,10 @@
   justify-content: space-between;
 }
 
+.avaliacoes > .box > div >p{
+  color: #737373;
+}
+
 .avaliacoes > .box > div {
   display: flex;
   justify-content: space-between;
@@ -175,7 +179,7 @@
   margin-bottom: 3rem;
 }
 .CTA button{
-  border-radius: 0.5rem;
+  border-radius: 30px;
   font-size: 16px;
   font-weight: 600;
   color: #f2f2f2;
@@ -267,7 +271,7 @@
 }
 .form > div.form-box > form > button{
 
-  border-radius: 0.5rem;
+  border-radius: 30px;
   border:none;
   padding: 1rem 3rem;
   font-size: 16px;
