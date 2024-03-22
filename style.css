@@ -79,12 +79,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5rem;
 }
 
 .funcionamento > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: -2rem 0 -5rem 0;
+  width: 80%;
+}
+
+.funcionamento > div:nth-child(3){
+  margin-right: -10rem;
 }
 
 .funcionamento > div > div {
@@ -113,6 +120,7 @@
   justify-content: space-between;
   flex-direction: column;
   height: 700px;
+  margin-top: 5rem;
 }
 
 .avaliacoes > .box {
@@ -136,4 +144,152 @@
 
 .avaliacoes > .box > div:nth-child(odd) {
   align-items: flex-end;
+}
+
+.CTA{
+  margin-top: 5rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(assets/Rectangle\ 47.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.CTA h1{
+  color: #f2f2f2;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.CTA p{
+  color:#f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.CTA button{
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2f2f2;
+  margin: 0.7rem;
+}
+.CTA .btn-lined{
+  background: none;
+  border-color: #f2f2f2;
+  padding: 1rem 2.3rem;
+}
+.CTA .btn-verde{
+  background-color: #00bf63;
+  border-width: 0;
+  padding: 1.2rem 2.5rem;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  height: 3rem;
+}
+
+.form{
+  background-color: #00bf63;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form .form-box{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .form-box .field{  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form form{
+  height: 100%;
+  width: 20rem;
+  background-color: #f2f2f2dd;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form .form-box .title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.form .form-box .title p{
+  margin-top: 0.5rem;
+  color: #737373;
+}
+
+.form .form-box .field input{
+  background:none;
+  border: none;
+  width: 100%;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #737373;
+}
+
+.form .form-box textarea{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #737373;
+  resize: none;
+}
+
+.form .form-box label{
+  align-self: flex-start;
+  color: #737373;
+}
+
+.form > div.form-box > form > p{
+  font-size: 15px;
+  color: #737373;
+  margin: 0;
+}
+.form > div.form-box > form > button{
+
+  border-radius: 0.5rem;
+  border:none;
+  padding: 1rem 3rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2f2f2;
+  margin: 1.5rem 0.7rem;
+  background:#00bf63;
+}
+
+.form .show-case{
+    height: 100%;
+    padding: 1rem;
+}
+.form .show-case img{
+  height: 100%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #e2e2e2;
+  color: #00bf63;
 }
